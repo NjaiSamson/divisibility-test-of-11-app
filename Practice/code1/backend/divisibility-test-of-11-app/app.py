@@ -43,8 +43,7 @@ while True:
         for digit in odd_position_digits:
             sum_odd_position = sum_odd_position + digit
 
-        print("Sum of digits in even positions = ", sum_even_position, "and Sum of digits in odd positions = ",
-              sum_odd_position)
+        print("Sum of digits in even positions = ", sum_even_position, "and Sum of digits in odd positions = ", sum_odd_position)
         print()
 
 # 4. Logic to determine the divisibility of 11
@@ -61,23 +60,16 @@ while True:
             print()
 
         if difference == 0:
-            print("Hence, number (", original_number,
-                  ") is visible by 11 because the difference of "
-                  "sum of digits in odd positions and even positions = ", difference)
+            print("Hence, number (", original_number, ") is visible by 11 because the difference of sum of digits in odd positions and even positions = ", difference)
             print()
 
         elif difference % 11 == 0:
-            print("Hence number (", original_number,
-                  ") is divisible by 11 because the difference of sum of digits in"
-                  " odd positions and even positions (", difference, ")is a multiple of 11.")
+            print("Hence number (", original_number, ") is divisible by 11 because the difference of sum of digits in odd positions and even positions (", difference, ")is a multiple of 11.")
             print()
 
         else:
-            print("Hence number (", original_number,
-                  ") is not divisible by 11 because the difference of sum of "
-                  "digits in odd positions and even positions (", difference, ") is not a zero or a multiple of 11")
+            print("Hence number (", original_number, ") is not divisible by 11 because the difference of sum of digits in odd positions and even positions (", difference, ") is not a zero or a multiple of 11")
             print()
 
     except ValueError:
-        print("The input (", raw_input, ") you entered is not a valid integer number. Please enter a valid integer "
-                                        "number and try again.")
+        print("The input (", raw_input, ") you entered is not a valid integer number. Please enter a valid integer number and try again.")
