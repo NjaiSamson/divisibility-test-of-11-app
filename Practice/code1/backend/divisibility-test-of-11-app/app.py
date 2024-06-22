@@ -68,7 +68,7 @@ while True:
             print()
 
         else:
-            print("Hence number (", original_number, ") is not divisible by 11 because the difference of sum of digits in odd positions and even positions (", difference, ") is not a zero or a multiple of 11")
+            print("Hence number (", original_number, ") is not divisible by 11 because the difference (", difference, ") of sum of digits in odd positions and even positions is not a zero or a multiple of 11")
             print()
 
     except ValueError:
